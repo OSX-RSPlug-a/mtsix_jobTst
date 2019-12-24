@@ -11,7 +11,7 @@ Teste feito com as tecnologias:
 
 Links:
 
-      http://localhost:8080/ ( tela de lsitagens do sistema )
+      http://localhost:8080/ ( tela de listagens do sistema )
 
 
 Project setup
