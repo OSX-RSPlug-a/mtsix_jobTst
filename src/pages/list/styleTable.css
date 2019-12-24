@@ -1,0 +1,151 @@
+ 
+.card {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    max-width: 60em;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    border-top: 5px solid #435757;
+    background: #fff;
+    box-shadow: 10px 10px 0 0px rgba(0, 0, 0, .1);
+}
+
+table.one {									 
+    margin-bottom: 1em;	
+    border-collapse: collapse;
+    width: 60em;
+}	
+
+table caption {
+    margin-top: 1em;	
+    padding: 20px;
+    padding-bottom: 1em;
+    font-size: 25px;
+    text-align: center;	
+    width: 100%;
+}
+	
+table.one td {								
+    text-align: center;     
+    width: 10em;					
+    padding: 1em; 		
+}		
+
+table.one th {								
+    text-align: center;					
+    padding: 1em;
+    background-color: var(--header-menu);
+    color: var(--background-opt0);
+} 
+
+.edt {
+    color: var(--background-opt2);
+}
+
+.exc {
+    color: var(--background-opt1);
+}
+
+table.one tr {	
+    height: 1em;	
+}
+
+table.one tr:nth-child(even) {			
+    background-color: #eee;		
+}
+
+table.one tr:nth-child(odd) {			
+    background-color:#fff;		
+}
+
+.table-swap {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    vertical-align: middle;
+    max-width: 60em;
+    height: 120px;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    border-top: 5px solid #435757;
+    background: #fff;
+    box-shadow: 10px 10px 0 0px rgba(0, 0, 0, .1);
+    color: #000000;
+}
+
+.table-swap a {
+    text-decoration: none;
+    padding: 20px 35px;
+    border-radius: 25px;
+    border: 5px #435757 0.8;
+    background: #fff;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, .1);
+    color: #000000;
+}
+
+.table-swap a:hover {
+    color: var(--background-opt0);
+    background: var(--header-menu);
+}
+
+.table-swap .search-term {
+    text-decoration: none;
+    padding: 20px 35px;
+    border-radius: 25px;
+    border: 5px #435757 0.8;
+    background: #fff;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, .1);
+    color: #000000;
+}
+
+.table-swap button {
+    text-decoration: none;
+    padding: 15px 35px;
+    border-radius: 25px;
+    border: 5px #435757 0.8;
+    background: #fff;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, .1);
+    color: #000000;
+}
+
+.table-swap button:hover {
+    color: var(--background-opt0);
+    background: var(--header-menu);
+}
+
+.add-item{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    vertical-align: middle;
+}
+
+
+@media only screen and (max-width: 455px){
+    .table-swap {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        height: 100%;
+        margin: 180px 2% 1% 1%;
+        padding: 5% 1% 5% 1%;
+    }
+    .table-swap a, input, button{
+        justify-content: space-around;
+        margin-bottom: 1%;	
+    }
+    .card {
+        width: 95%;
+        margin: 20px 0 1% 1%;
+        max-width: 100%;
+        overflow-x: auto;
+    }
+    table.one { 
+        width: 100%;
+        overflow-x: auto;
+        margin-top: 5%;
+    }
+}
